@@ -8,6 +8,13 @@ const be_get = (req, res) => {
     });
 };
 
+const prompt_get = (req, res) => {
+    res.render('prompt', {
+        promptData: promptData
+    });
+};
+
 module.exports = {
-    be_get
+    be_get,
+    prompt_get
 }
