@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Be: / Prompt</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- //////// DEFAULT Screen /////// -->
+
+  <div id="screen" class="ipad">    
+    <div id="whatList">
+      <div id="whattobe">
+        <p class="label artstylelist">Artists</p>
+      </div>
+    </div> 
+  </div>
+
+
+    <script>
+      const kidsData = <%- JSON.stringify(kidsData) %> ;
+      const current = document.getElementById('screen');
+      let thekid = {};
+
+      const webSocket = new WebSocket('wss://int.patternbased.com/ws');
+
+      webSocket.onmessage = (event) => {
+        console.log(event)
+      };
+
+      webSocket.addEventListener("open", () => {
+        console.log("We are connected");
+        renderKidsList(kidsData, 'whattobe');
+      });
+      
+    function isJson(str) {
+      try {
+        JSON.parse(str);
+      } catch (e) {
+        return false;
+      }  
+      return true;
+    }
+
+    // Gather Style and Prompt, and Send them to the server
+    function sendCustompromptInput() {
+      if(thekid.Prompt.length === 0) {
+        console.log("No prompt");
+        return;
+      } else {
+        const promptObj = {
+          "Type": "Kids",
+          "Prompt": thekid.Prompt,
+          "Music": thekid.Music,
+        };
+        webSocket.send(JSON.stringify(promptObj));
+        console.log("Sending", promptObj);
+      }
+    }
+
+    function renderKidsList(data, div) {
+      const kidsList = document.getElementById(div);
+      kidsList.innerHTML = '';
+      // Render the reordered list with a special class for matching artists
+      data.forEach(kids => {
+        const kidsDiv = document.createElement('div');
+        kidsDiv.classList.add('kidslistItem');
+        kidsDiv.innerHTML = `
+          <img class="artImg" src="images/kids/${kids.Image}" alt="${kids.Name}">
+          <p class="kidsname" id="${kids.ID}">${kids.Name}</p>`;
+        kidsList.appendChild(kidsDiv);
+      });
+      toggleHighlight();
+    }
+
+    function toggleHighlight() {
+      const kidslistItems = document.querySelectorAll('.kidslistItem');
+
+      kidslistItems.forEach(item => {
+        item.addEventListener('click', () => {
+          kidslistItems.forEach(i => i.classList.remove('highlighted'));
+          item.classList.toggle('highlighted');
+          thekid = kidsData.filter(kid => kid.ID === item.querySelector('.kidsname').id)[0];
+          sendCustompromptInput();
+        });
+      });
+    }
+
+  </script>
+</body>
+</html>

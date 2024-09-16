@@ -1,128 +1,658 @@
 [
     {
+        "Prompt": null,
+        "Category": "PBSystem",
+        "TrackName": null,
+        "Artist": null,
+        "Japanese": null,
+        "Audio": null
+    },
+    {
         "Prompt": "A mountain of scrapped machines in the haunted desert in stormy weather with atomic cloud on the background by Zdzisław Beksiński",
         "Category": "System",
-        "Audio": "System 00",
+        "TrackName": "System 00",
         "Artist": "PatternBased",
-        "Japanese": "Zdzisław Beksińskiが描く、荒涼とした砂漠に佇む廃棄された機械の山、嵐が荒ぶり、背景にはきのこ雲が立ちのぼる"
+        "Japanese": "Zdzisław Beksińskiが描く、荒涼とした砂漠に佇む廃棄された機械の山、嵐が荒ぶり、背景にはきのこ雲が立ちのぼる",
+        "Audio": "PatternBased - System 00"
     },
     {
         "Prompt": "Warfare and mountains of weapons, dark, hellish by Junji Ito, Katsuhiko Otomo, Kazuo Umezu",
         "Category": "System",
-        "Audio": "System 01",
+        "TrackName": "System 01",
         "Artist": "PatternBased",
-        "Japanese": "戦争と武器の山、暗く、地獄のよう、伊藤潤二、大友克洋、楳図かずお"
+        "Japanese": "戦争と武器の山、暗く、地獄のよう、伊藤潤二、大友克洋、楳図かずお",
+        "Audio": "PatternBased - System 01"
     },
     {
-        "Prompt": "Warfare and mountains of weapons, dark, hellish",
+        "Prompt": "Warfare and mountains of weapons, dark, hellish by Junji Ito and Hieronymus Bosch",
         "Category": "System",
-        "Audio": "System 02",
+        "TrackName": "System 02",
         "Artist": "PatternBased",
-        "Japanese": "戦争と武器の山、暗く、地獄のよう"
+        "Japanese": "戦争と武器の山、暗く、地獄のよう",
+        "Audio": "PatternBased - System 02"
     },
     {
-        "Prompt": "Visions of hell, fire and brimstone",
+        "Prompt": "Visions of hell, fire and brimstone by by Hieronymus Bosch",
         "Category": "System",
-        "Audio": "System 03",
+        "TrackName": "System 03",
         "Artist": "PatternBased",
-        "Japanese": "地獄の幻視、火と硫黄、地獄の苦しみ"
+        "Japanese": "地獄の幻視、火と硫黄、地獄の苦しみ",
+        "Audio": "PatternBased - System 03"
     },
     {
-        "Prompt": "Demonic black mountains, snarling revenge, torture chambers",
+        "Prompt": "Giant mechanical killer insect machines on a stark battle field by Hieronymus Bosch and Neill Blomkamp",
         "Category": "System",
-        "Audio": "Joseph Minadeo - The Dark Ages - 01 Forbidden",
-        "Artist": "PatternBased",
-        "Japanese": "悪魔の黒い山、咆哮の復讐、拷問部屋"
+        "TrackName": "Go Federal",
+        "Artist": "Low in the Sky",
+        "Japanese": "Hieronymus BoschとNeill Blomkampが描く、荒涼とした戦場に立つ、巨大で機械的な殺人昆虫型マシーン",
+        "Audio": "Low in the Sky - Dear Birds - Go Federal"
     },
     {
         "Prompt": "Vulture machines with volcanos and lava, steam and fog, and hellish heat by Zdzisław Beksiński and HR Giger",
         "Category": "System",
-        "Audio": "Joseph Minadeo - Brown Moses - 46 2017 Arab Spring",
+        "TrackName": "Arab Spring",
         "Artist": "Joseph Minadeo",
-        "Japanese": "Zdzisław BeksińskiとHR Gigerが描く、火山と溶岩、蒸気と霧、灼熱の機械式ハゲタカ"
+        "Japanese": "Zdzisław BeksińskiとHR Gigerが描く、火山と溶岩、蒸気と霧、灼熱の機械式ハゲタカ",
+        "Audio": "System - Brown Moses - 2017 Arab Spring"
+    },
+    {
+        "Prompt": "Hellscape with piles of rotten meat by Francis Bacon",
+        "Category": "System",
+        "TrackName": "Houla Massacre",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "フランシス・ベーコンによる腐った肉の山の地獄絵図",
+        "Audio": "System - Brown Moses - 2017 Houla Massacre"
+    },
+    {
+        "Prompt": "Killing machines on the fire strewn plains by Zdzisław Beksiński",
+        "Category": "System",
+        "TrackName": "Brown Moses Intro",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "Zdzisław Beksińskiが描く、火で覆われた草原に置かれた殺戮マシーン",
+        "Audio": "System - Brown Moses - 2017 Opening"
+    },
+    {
+        "Prompt": "Futuristic killing sprees with curved cutting machines by Achille Funi",
+        "Category": "System",
+        "TrackName": "Autonomous Death Machine",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "Achille Funiが描く、流線型な形の切断機による未来的な殺戮行為",
+        "Audio": "System - Brown Moses - Autonomous Death Override"
+    },
+    {
+        "Prompt": "Warriors throughout history and the world. Conflicts over the ages. Human is the most dangerous animal.",
+        "Category": "System",
+        "TrackName": "Coup d'etat",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "世界中の全ての歴史の中の戦士たち、年代を超えて続く紛争、人間こそが最も危険な動物である",
+        "Audio": "System - Brown Moses - Coup d'état"
+    },
+    {
+        "Prompt": "Emergent Narcostate, Drug Cartels, Sepiatone, Dusty bordertowns, Death in the Desert",
+        "Category": "System",
+        "TrackName": "Emergent Narcostate",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "麻薬テロにより支配されつつある国、麻薬カルテル、セピア色の埃っぽい国境の町、砂漠での死",
+        "Audio": "System - Brown Moses - Emergent Narcostate"
     },
     {
         "Prompt": "Poison Gas Attack, Genocide, White Phosphorus",
         "Category": "System",
-        "Audio": "Joseph Minadeo - Brown Moses - 76 Failed State",
+        "TrackName": "Failed State",
         "Artist": "Joseph Minadeo",
-        "Japanese": "毒ガス攻撃、殺戮、白リン弾"
+        "Japanese": "毒ガス攻撃、殺戮、白リン弾",
+        "Audio": "System - Brown Moses - Failed State"
+    },
+    {
+        "Prompt": "Modern war in Eastern Europe. Ukraine. Russia. Tanks, Rockets and Drones",
+        "Category": "System",
+        "TrackName": "Into The Storm",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "東ヨーロッパにおける現代の戦争、ウクライナ、ロシア、戦車、ロケット、ドローン",
+        "Audio": "System - Brown Moses - Into The Storm"
     },
     {
         "Prompt": "Warfare and evil empires, Slavery and Darkness, Killing machines, cyberpunk",
         "Category": "System",
-        "Audio": "Joseph Minadeo - Brown Moses - 100 Nicolas Cage Fight",
+        "TrackName": "Nicolas Cage Fight",
         "Artist": "Joseph Minadeo",
-        "Japanese": "戦争と邪悪の巨大帝国、奴隷制度と暗黒、殺人機械、サイバーパンク"
+        "Japanese": "戦争と邪悪の巨大帝国、奴隷制度と暗黒、殺人機械、サイバーパンク",
+        "Audio": "System - Brown Moses - Nicolas Cage Fight"
     },
     {
-        "Prompt": "Dense cities, Los Angeles, Kawloon Walled City, Tight spaces and multi cultural dense dirty alleys, neon signs",
+        "Prompt": "Rocket launchers, AR-15s, M-16s, Vietnam Helicopters, Agent Orange",
         "Category": "System",
-        "Audio": "Puffy Shapes - Los Angeles",
-        "Artist": "Solver",
-        "Japanese": "密集都市、ロサンゼルス、九龍城、狭く密集したと多文化的で汚れた路地、ネオンサイン"
+        "TrackName": "Novichok Agents",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "ロケットランチャー、AR-15、M-16、ベトナム戦争のヘリコプター、エージェントオレンジ（枯葉剤）",
+        "Audio": "System - Brown Moses - Novichok Agents"
+    },
+    {
+        "Prompt": "Failed States, Terror Empire, Planet Domination, Poisonous Patriarchy",
+        "Category": "System",
+        "TrackName": "Rolling Blackouts",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "失敗した国家、テロの帝国、地球支配、有毒な父権",
+        "Audio": "System - Brown Moses - Rolling Blackouts"
+    },
+    {
+        "Prompt": "Demonic black mountains, snarling revenge, torture chambers",
+        "Category": "System",
+        "TrackName": "Forbidden",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "悪魔の黒い山、咆哮の復讐、拷問部屋",
+        "Audio": "System - The Dark Ages - Forbidden"
+    },
+    {
+        "Prompt": "Leather torture devices, blood and severed limbs and dead bodies",
+        "Category": "System",
+        "TrackName": "Devices",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "革の拷問器具、血と切断された手足、死体",
+        "Audio": "System - The Inquisition - Devices"
+    },
+    {
+        "Prompt": "Torture in the dark ages, Abu Ghraib, Torture in 2024, Futuristic Torture devices",
+        "Category": "System",
+        "TrackName": "Demolishment",
+        "Artist": "PatternBased",
+        "Japanese": "中世の拷問、アブグレイブ刑務所、2024年の拷問、未来の拷問装置",
+        "Audio": "System - The Dark Ages - Demolishment"
+    },
+    {
+        "Prompt": "Nuclear winter and the extermination of all life on earth",
+        "Category": "System",
+        "TrackName": "Regress",
+        "Artist": "PatternBased",
+        "Japanese": "核の冬、地球上すべての生命の絶滅",
+        "Audio": "System - The Dark Ages - Regress"
+    },
+    {
+        "Prompt": "Burnt dead corpses, burnt out buildings, fires and war and death camps",
+        "Category": "System",
+        "TrackName": "Burnt",
+        "Artist": "PatternBased",
+        "Japanese": "焼けた死体、焼けた建物、火災、戦争、死の収容所",
+        "Audio": "System - The Dark Ages - Burnt"
+    },
+    {
+        "Prompt": "Impending Doom, Fog and Smoke, Fighting a war in the mist and fog, Giant floating castles",
+        "Category": "System",
+        "TrackName": "Don't Remember Nothing",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "迫り来る絶望、霧と煙、霧と靄の中での戦い、巨大な浮遊する城群",
+        "Audio": "Joseph Minadeo - Sounds For Independence - Don't Remember Nothing"
+    },
+    {
+        "Prompt": "A broken gas mask on dry cracked dirt of a dead planet",
+        "Category": "System",
+        "TrackName": "Undergrowth",
+        "Artist": "PatternBased",
+        "Japanese": "枯れた地球の乾いてひび割れた土の上にある壊れたガスマスク",
+        "Audio": "System - The Inquisition - Undergrowth"
     },
     {
         "Prompt": "Organic lifeforms and beautiful luminescent beings gouache on paper by Henri Matisse in the style of detailed graffiti",
         "Category": "Life",
-        "Audio": "Life 00",
+        "TrackName": "Life 00",
         "Artist": "PatternBased",
-        "Japanese": "アンリ・マティスの描く、有機生物と美しい発光体、繊細なグラフィティ風のガッシュ画"
+        "Japanese": "アンリ・マティスの描く、有機生物と美しい発光体、繊細なグラフィティ風のガッシュ画",
+        "Audio": "PatternBased - Life 00"
+    },
+    {
+        "Prompt": "Microscopic lifeforms and moldy micro beings made out of fur",
+        "Category": "Life",
+        "TrackName": "Life 01",
+        "Artist": "PatternBased",
+        "Japanese": "毛皮でできた微生物やカビた微小な存在",
+        "Audio": "PatternBased - Life 01"
+    },
+    {
+        "Prompt": "Organic lifeforms and beautiful luminescent beings by Claude Monet",
+        "Category": "Life",
+        "TrackName": "Life 02",
+        "Artist": "PatternBased",
+        "Japanese": "クロード・モネによる有機生命体と美しい発光生物",
+        "Audio": "PatternBased - Life 02"
+    },
+    {
+        "Prompt": "Organic lifeforms and beautiful luminescent beings by Barry Van Dusen",
+        "Category": "Life",
+        "TrackName": "Life 03",
+        "Artist": "PatternBased",
+        "Japanese": "Barry Van Dusenによる有機的な生命体と美しい発光する存在",
+        "Audio": "PatternBased - Life 03"
+    },
+    {
+        "Prompt": "Faded old photographs of rusted old greenhouses",
+        "Category": "Life",
+        "TrackName": "Feature Fred",
+        "Artist": "PatternBased",
+        "Japanese": "錆びた温室の色あせた古い写真",
+        "Audio": "Life - Variations of Grace - Feature Fred"
+    },
+    {
+        "Prompt": "Beautfiul light coming through the forest canopy, green rainforest, green futures, beautiful life",
+        "Category": "Life",
+        "TrackName": "A",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "美しい光が森の天蓋を通り抜け、緑の熱帯雨林、緑の未来、美しい生命",
+        "Audio": "Life - Soothing Sounds for Baby - A"
+    },
+    {
+        "Prompt": "Beutfiul light coming through the tree leaves, looking up, by Claude Monet",
+        "Category": "Life",
+        "TrackName": "Marquee",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "木の葉を通り抜ける美しい光、上を見上げる、クロード・モネ",
+        "Audio": "Life - LCUBB2 - Marquee"
+    },
+    {
+        "Prompt": "Faded old photographs of overgrown rusted old greenhouses covered by vines, moss and growth",
+        "Category": "Life",
+        "TrackName": "Spring",
+        "Artist": "Jaquire",
+        "Japanese": "つる植物や苔に覆われた温室、色あせた古い写真の温室",
+        "Audio": "Life - Jaquire - Spring"
+    },
+    {
+        "Prompt": "tiny pink bubbles and microscopic animals",
+        "Category": "Life",
+        "TrackName": "Accidental Oceans",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "微細なピンク色の泡と微生物",
+        "Audio": "Life - Strangers in my Head - Accidental Oceans"
+    },
+    {
+        "Prompt": "Patterns in nature, patterns of trees and leaves and stones by Andy Goldsworthy. Knolling patterns and arrangements of nature.",
+        "Category": "Life",
+        "TrackName": "The Quiet (2) Behind the (3)",
+        "Artist": "Joseph Minadeo & Curt Brown",
+        "Japanese": "ポール・クレーが描く、細胞と原子、粒状のフラクタルの泡、多数の直線と石、デジタルスタイルの線画",
+        "Audio": "Life - Woodland - The Quiet (2) Behind the (3)"
+    },
+    {
+        "Prompt": "Astral lifeforms and underwater deep blue iridescent coral and fish and giant clams by Claude Monet",
+        "Category": "Life",
+        "TrackName": "Morning Glory",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "クロード・モネによる、宇宙の生命体と海底の深く青い虹彩のサンゴや魚、そして巨大な貝",
+        "Audio": "Life - Amehuru - Morning Glory"
+    },
+    {
+        "Prompt": "Greenhouses underwater. Snow above the water. Underwater farms and plants. Beautiful seaweed.",
+        "Category": "Life",
+        "TrackName": "And Snow While Surfacing",
+        "Artist": "Low in the Sky",
+        "Japanese": "水中の温室、水上には雪が積もる、水中の農場や植物、美しい海藻",
+        "Audio": "Low in the Sky - We Are All Counting On You, William - And Snow While Surfacing"
     },
     {
         "Prompt": "cells and atoms, granular fractal bubbles, many straight lines and stones, by Paul Klee in the style of digital line drawing",
         "Category": "Life",
-        "Audio": "Joseph Minadeo & Curt Brown - Wood Land - 01 The Quiet (2) Behind the (3)",
-        "Artist": "Joseph Minadeo & Curt Brown",
-        "Japanese": "ポール・クレーが描く、細胞と原子、粒状のフラクタルの泡、多数の直線と石、デジタルスタイルの線画"
+        "TrackName": "Distance",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "ポール・クレーが描く、細胞や原子、粒状のフラクタルバブルと多くの直線や石のデジタル線画",
+        "Audio": "Life - Sounds for a Photograph - Distance"
+    },
+    {
+        "Prompt": "Undergrowth, forest floor, minimal, night forest, fireflies and glowing insects by Vincent van Gogh",
+        "Category": "Life",
+        "TrackName": "Before the Pigeons Fly",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "ゴッホによる、林床、森床、ミニマル、夜の森、ホタルと輝く昆虫",
+        "Audio": "Life - Amehuru - Before the Pigeons Fly"
     },
     {
         "Prompt": "Night time verdant forest with birds, bugs and tiny spiky spirit creatures painted by Salvador Dalí and Hayao Miyazaki",
         "Category": "Life",
-        "Audio": "Joseph Minadeo - Amehuru - 09 Moment",
+        "TrackName": "Moment",
         "Artist": "Joseph Minadeo",
-        "Japanese": "サルバドール・ダリと宮崎駿による、夜の緑深い森、鳥、昆虫、小さくトゲトゲした形の精霊たち"
+        "Japanese": "サルバドール・ダリと宮崎駿による、夜の緑深い森、鳥、昆虫、小さくトゲトゲした形の精霊たち",
+        "Audio": "Life - Amehuru - Moment"
     },
     {
         "Prompt": "patterns and codes and fractals bubbles and particles and smoke and dustand infinity and solar eclipses",
         "Category": "Life",
-        "Audio": "Joseph Minadeo - LCUBB2 - 01 Who You Are",
-        "Artist": "LCUBB2",
-        "Japanese": "パターン模様、プログラミングコード、フラクタルの泡や粒子、煙や塵、無限と日食"
+        "TrackName": "Who You Are",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "パターン模様、プログラミングコード、フラクタルの泡や粒子、煙や塵、無限と日食",
+        "Audio": "Life - LCUBB2 - Who You Are"
     },
     {
         "Prompt": "raindrops and bubbles, flowers and smoke and microscopy",
         "Category": "Life",
-        "Audio": "Joseph Minadeo - Music for Rabbits 22 Other Living Creatures - 00B",
+        "TrackName": "Other Living Creatures B",
         "Artist": "Joseph Minadeo",
-        "Japanese": "雨粒と泡、花と煙、そして顕微鏡学"
+        "Japanese": "雨粒と泡、花と煙、そして顕微鏡学",
+        "Audio": "Life - Music for Rabbits - Other Living Creatures B"
+    },
+    {
+        "Prompt": "Red Sprites and Blue Jets. Atmospheric Lightning.",
+        "Category": "Life",
+        "TrackName": "Red Sprites and Blue Jets",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "レッドスプライトとブルージェット、大気の中の雷",
+        "Audio": "Life - One Billion Joules - Red Sprites and Blue Jets"
+    },
+    {
+        "Prompt": null,
+        "Category": null,
+        "TrackName": "Ebow the Particle",
+        "Artist": "Joseph Minadeo",
+        "Japanese": null,
+        "Audio": "Life - Come Down Now - Ebow the Particle"
+    },
+    {
+        "Prompt": "This used to be a beautiful meadow, nostalgia for a blue and green planet",
+        "Category": "Life",
+        "TrackName": "AV-8B Harrier in C Major",
+        "Artist": "Joseph Minadeo & Curt Brown",
+        "Japanese": "かつて美しい牧草地があった、青と緑の惑星への郷愁",
+        "Audio": "Life - The Well Tempered Machine - AV-8B Harrier in C Major"
+    },
+    {
+        "Prompt": "Soft clouds and felt spirits, beautiful woodland vapor animals.",
+        "Category": "Life",
+        "TrackName": "Lluvia y Sal",
+        "Artist": "Low in the Sky",
+        "Japanese": "柔らかな雲とフェルトの精霊、美しい森の蒸気の動物たち",
+        "Audio": "Low in the Sky - A Shared Rainbow - Lluvia y Sal"
+    },
+    {
+        "Prompt": "A monster party, a party with monsters",
+        "Category": "MonsterParty",
+        "TrackName": "Monster Party",
+        "Artist": "Puffy Shapes",
+        "Japanese": "モンスターパーティー、モンスターたちのパーティー",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Monster Party"
     },
     {
         "Prompt": "A polaroid disco monster party from the 70s, grainy colorful photographs, print color halftone",
         "Category": "MonsterParty",
-        "Audio": "Hill Sleepers - Hill Sleepers - 16 Self Defense Bundle",
+        "TrackName": "Self Defense Bundle",
         "Artist": "Hill Sleepers",
-        "Japanese": "ポラロイドで撮られた、70年代ディスコのモンスターパーティー、ざらっとした質感のカラー写真、ハーフトーン印刷"
+        "Japanese": "ポラロイドで撮られた、70年代ディスコのモンスターパーティー、ざらっとした質感のカラー写真、ハーフトーン印刷",
+        "Audio": "Hill Sleepers - Hill Sleepers - Self Defense Bundle"
+    },
+    {
+        "Prompt": "Fuzzy Battles between Fuzzy Combatants",
+        "Category": "MonsterParty",
+        "TrackName": "A Good Time in the Underworld",
+        "Artist": "Hill Sleepers",
+        "Japanese": "ぼやけた戦闘員たちによるぼんやりした戦闘",
+        "Audio": "Monster Party - A Good Time in the Underworld"
+    },
+    {
+        "Prompt": "Fuzzy felt colorful monsters with silly soft weapons",
+        "Category": "MonsterParty",
+        "TrackName": "Funky Dinosaur",
+        "Artist": "Puffy Shapes",
+        "Japanese": "マヌケで柔らかな武器を持つ、ふわふわでカラフルなフェルトのモンスターたち",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Funky Dinosaur"
+    },
+    {
+        "Prompt": "Silly lizard party, in technopunk style",
+        "Category": "MonsterParty",
+        "TrackName": "Aunt Bunny",
+        "Artist": "Gnosotros",
+        "Japanese": "おかしなトカゲたちのパーティー、テクノ・パンク・スタイル",
+        "Audio": "Gnosotros - Aunt Bunny"
+    },
+    {
+        "Prompt": "Fuzzy Raccoons doing funny tricks and playing saxaphone with other Raccoons in Jazz Clubs",
+        "Category": "MonsterParty",
+        "TrackName": "Paradise Fire",
+        "Artist": "Puffy Shapes",
+        "Japanese": "ジャズクラブで、他のアライグマたちと、サックスを演奏して、面白いイタズラをするフワフワのアライグマ",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Paradise Fire"
     },
     {
         "Prompt": "Colorful fruits and vegetables by Yayoi Kusama, made by ceramic, matte texture, cinematic soft light",
         "Category": "MonsterParty",
-        "Audio": "Low in the Sky - A Shared Rainbow - 02 Leghwhizahmo",
+        "TrackName": "Leghwhizahmo",
         "Artist": "Low in the Sky",
-        "Japanese": "草間彌生によるカラフルな果物と野菜、マットな質感の陶器製、映画のような柔らかい光"
+        "Japanese": "草間彌生によるカラフルな果物と野菜、マットな質感の陶器製、映画のような柔らかい光",
+        "Audio": "Low in the Sky - A Shared Rainbow - Leghwhizahmo"
+    },
+    {
+        "Prompt": "The Bugs in Siori's Dreams",
+        "Category": "MonsterParty",
+        "TrackName": "The Bugs in Siori's Dreams",
+        "Artist": "PatternBased",
+        "Japanese": "シオリの夢に出てくる虫たち",
+        "Audio": "The Bugs in Siori's Dreams - 00"
+    },
+    {
+        "Prompt": "Tiny felt plush velvet witches brewing a felt potion in a felt cauldron",
+        "Category": "MonsterParty",
+        "TrackName": "Koso Koso",
+        "Artist": "OnomatoPedal",
+        "Japanese": "フェルトの鍋でフェルトのポーションを作る、小さなフェルトのぬいぐるみの魔女",
+        "Audio": "OnomatoPedal - Koso Koso"
+    },
+    {
+        "Prompt": "Colorful abstract birds by Miro, made by paper, 3D matte texture, cinematic soft light",
+        "Category": "MonsterParty",
+        "TrackName": "Opal One Three",
+        "Artist": "Joke 2AD",
+        "Japanese": "紙で作られた、3Dのマットな質感、シネマティックな柔らかな光を持つ、ミロが描くカラフルな抽象鳥",
+        "Audio": "Opal One Three - 00"
+    },
+    {
+        "Prompt": "Antique Sunset Plants and Animals and Machines from Ancient India",
+        "Category": "Misc",
+        "TrackName": "Veena",
+        "Artist": "Joseph Minadeo and Curt Brown",
+        "Japanese": null,
+        "Audio": "Veena"
+    },
+    {
+        "Prompt": "Tiny cute plush monsters with tiny cute plush weapons",
+        "Category": "Misc",
+        "TrackName": "Anthonomus grandis",
+        "Artist": "Insect Sounds",
+        "Japanese": "小さくて可愛らしいぬいぐるみのモンスターたちが、小さくて可愛らしいぬいぐるみの武器を持って戦う",
+        "Audio": "Insect Sounds - Insect Sounds - Anthonomus grandis"
+    },
+    {
+        "Prompt": "Dense cities, Los Angeles, Kawloon Walled City, Tight spaces and multi cultural dense dirty alleys, neon signs, Cyberpunk",
+        "Category": "Misc",
+        "TrackName": "Los Angeles",
+        "Artist": "Solver",
+        "Japanese": "密集都市、ロサンゼルス、九龍城、狭く密集したと多文化的で汚れた路地、ネオンサイン",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Los Angeles"
+    },
+    {
+        "Prompt": "Trees and mandala and fractals",
+        "Category": "Misc",
+        "TrackName": "Desire Lines",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "木々と曼荼羅、そしてフラクタル",
+        "Audio": "Joseph Minadeo - Cheer Tunes - Desire Lines"
+    },
+    {
+        "Prompt": "Busy futuristic dark city, tokyo, neon, alleyways art by Mobius",
+        "Category": "Misc",
+        "TrackName": "Oncotympana maculaticollis",
+        "Artist": "Insect Sounds",
+        "Japanese": "混み合った未来的なダークシティ、東京、ネオン、Mobiusによる路地アート",
+        "Audio": "Insect Sounds - Oncotympana maculaticollis"
+    },
+    {
+        "Prompt": "Cyberpunk disco showdown at the spacestation, Double cyberpunk and even triple cyberpunk",
+        "Category": "Misc",
+        "TrackName": "The Pin Holed Blanket Fire",
+        "Artist": "Wood Land",
+        "Japanese": "宇宙ステーションでのサイバーパンクディスコ対決、ダブルサイバーパンク、さらにトリプルサイバーパンク",
+        "Audio": "Joseph Minadeo & Curt Brown - Wood Land - The Pin Holed Blanket Fire"
+    },
+    {
+        "Prompt": "Trees and mandala and fractals and repeated pattern of leaves and roots",
+        "Category": "Misc",
+        "TrackName": "Stormy Susan",
+        "Artist": "Gnosotros",
+        "Japanese": "木々と曼荼羅、フラクタル、そして葉や根の繰り返し模様",
+        "Audio": "Gnosotros - Gnosotros - Stormy Susan"
+    },
+    {
+        "Prompt": "Old super 8 and polaroid footage of dried flowers, midwest farms.",
+        "Category": "Misc",
+        "TrackName": "Athens and Corsicana",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "乾燥した花、中西部の農場の古いスーパー8とポラロイドフィルム",
+        "Audio": "Joseph Minadeo - Cheer Tunes - Athens and Corsicana"
+    },
+    {
+        "Prompt": "Wind swept tundra and desert and plains, the old west, vivid sunsets, big sky, big vistas",
+        "Category": "Misc",
+        "TrackName": "Texerica",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "風が吹き抜けるツンドラと砂漠、平原、古き西部、鮮やかな夕日、広大な空、大きな景色",
+        "Audio": "Joseph Minadeo - Cheer Tunes - Texerica"
+    },
+    {
+        "Prompt": "A disco dance party among atoms and quarks and dark matter",
+        "Category": "Misc",
+        "TrackName": "Cheer Pulse A",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "原子やクォーク、暗黒物質の中でのディスコパーティ",
+        "Audio": "Joseph Minadeo - Cheer Tunes - Cheer Pulse A"
+    },
+    {
+        "Prompt": "Riding the lonely bus at night through Oakland, California. 35mm film.",
+        "Category": "Misc",
+        "TrackName": "How It Goes",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "夜、カリフォルニアのオークランドの淋しいバスに乗る、35mmフィルム",
+        "Audio": "Joseph Minadeo - LCUBB2 - How It Goes"
+    },
+    {
+        "Prompt": "Antique bicycle accident.",
+        "Category": "Misc",
+        "TrackName": "Reconciling Time",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "アンティーク自転車事故",
+        "Audio": "Joseph Minadeo - Strangers in My Head Soundtrack - Reconciling Time"
+    },
+    {
+        "Prompt": "Pensive stark antique houses in the American west in 50s with shadows of settlers and immigrants, painted by Edward Hopper",
+        "Category": "Misc",
+        "TrackName": "Reconciling Time",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "エドワード・ホッパーが描く、50年代のアメリカ西部にある古く厳格なアンティークな家屋、開拓者や移民の影が映し出される",
+        "Audio": "Joseph Minadeo - LCUBB2 - Reconciling Time"
     },
     {
         "Prompt": "Lonely rainy New York City in the Neon Polaroid 60's, Muted colors",
         "Category": "Misc",
-        "Audio": "Joseph Minadeo - Strangers in My Head Soundtrack - 33 Where is Wolno",
+        "TrackName": "Where is Wolno",
         "Artist": "Joseph Minadeo",
-        "Japanese": "ニューヨークの孤独な雨の日、60年代のネオンのポラロイド写真、落ち着いた色彩"
+        "Japanese": "ニューヨークの孤独な雨の日、60年代のネオンのポラロイド写真、落ち着いた色彩",
+        "Audio": "Joseph Minadeo - Strangers in My Head Soundtrack - Where is Wolno"
+    },
+    {
+        "Prompt": "Mirrored Joshua Trees against a blue desert sky in the verse, Night trains in Tokyo in the Chorus",
+        "Category": "Misc",
+        "TrackName": "Desert Stizzy",
+        "Artist": "Puffy Shapes",
+        "Japanese": "バースには青い砂漠の空に映る反転されたジョシュアツリー、コーラスには東京の夜の列車",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Desert Stizzy"
+    },
+    {
+        "Prompt": "Sun drenched Pacific vibes, California sunset in the 70s, Polaroid dreams, 35mm light leek, sunlight, nostalgic",
+        "Category": "Misc",
+        "TrackName": "Go Coastal",
+        "Artist": "Puffy Shapes",
+        "Japanese": "太陽の光が降り注ぐ太平洋の雰囲気、70年代のカリフォルニアの夕焼け、ポラロイドの夢、35mmの光漏れ、日光、ノスタルジック",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Go Coastal"
+    },
+    {
+        "Prompt": "Synthwave, Cyberpunk, Pink Sunset, Unicorn Spacegrid",
+        "Category": "Misc",
+        "TrackName": "Eneldee",
+        "Artist": "Solver",
+        "Japanese": "シンセウェーブ、サイバーパンク、ピンクの夕焼け、ユニコーンの宇宙グリッド",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - Eneldee"
     },
     {
         "Prompt": "consumerism, products, supermarket, hyper capitalism in communists propaganda poster style",
         "Category": "Misc",
-        "Audio": "Joke 2AD - Opal One Three - 00",
+        "TrackName": "Opal One Three",
         "Artist": "Joke",
-        "Japanese": "消費主義、たくさんの製品、スーパーマーケット、共産主義のプロパガンダポスター風に描かれた超資本主義"
+        "Japanese": "消費主義、たくさんの製品、スーパーマーケット、共産主義のプロパガンダポスター風に描かれた超資本主義",
+        "Audio": "Opal One Three - 00"
+    },
+    {
+        "Prompt": "Mountain climbing, sunrise over the mountain, Himilayas, Tibet",
+        "Category": "Misc",
+        "TrackName": "In The Wilds Of Fiery Climes",
+        "Artist": "Puffy Shapes",
+        "Japanese": "山登り、山の上での日の出、ヒマラヤ、チベット",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - In The Wilds Of Fiery Climes"
+    },
+    {
+        "Prompt": "Aztec Motherboard, Inca and Mesoamerindian Circuits",
+        "Category": "Misc",
+        "TrackName": "The Only NinetySix",
+        "Artist": "Puffy Shapes",
+        "Japanese": "アステカのマザーボード、インカとメソアメリンディアンの回路",
+        "Audio": "Puffy Shapes - The Puff Of Things To Can't - The Only NinetySix"
+    },
+    {
+        "Prompt": "A busy market in Marakech, Deep Blues and aquamarine hues, 35 mm film, desert",
+        "Category": "Misc",
+        "TrackName": "Marakech",
+        "Artist": "Puffy Shapes",
+        "Japanese": "マラケシュの賑やかな市場、深い青とアクアマリンの色合い、35mmフィルム、砂漠",
+        "Audio": "Marakech - 01"
+    },
+    {
+        "Prompt": "Super nostalgic super 8 film and light leeks. Super 8 film of a county fair of a small town in the 80s. It is sunset and people are enjoying the rides.",
+        "Category": "Misc",
+        "TrackName": "Cosmo",
+        "Artist": "Low in the Sky",
+        "Japanese": "80年代の小さな町の祭り、超ノスタルジックなスーパー8フィルムとライトリーク、夕日が沈み、人々が乗り物を楽しんでいる様子",
+        "Audio": "Low in the Sky - A Shared Rainbow - Cosmo"
+    },
+    {
+        "Prompt": "Surreal sepiatones of the wild west. Grainy dusty saloons and train stations, gold mines and toothless prospectors.",
+        "Category": "Misc",
+        "TrackName": "Fax MN",
+        "Artist": "Low in the Sky",
+        "Japanese": "荒涼としたセピアトーンの西部の風景、砂塵をまき散らすほこりっぽい酒場や駅、金鉱と歯のない探鉱者",
+        "Audio": "Low in the Sky - Dear Birds - Fax MN"
+    },
+    {
+        "Prompt": "Inofgraphics about war and weapons and solving mysteries",
+        "Category": "Misc",
+        "TrackName": "Brown Moses Themes 2E",
+        "Artist": "Joseph Minadeo",
+        "Japanese": "戦争と武器、謎解きに関するインフォグラフィック",
+        "Audio": "11 Brown Moses Themes 2E"
+    },
+    {
+        "Prompt": "Old dusty antique western scene, trains and cowboys and steampunk machines",
+        "Category": "Misc",
+        "TrackName": "The Cowboy Natural",
+        "Artist": "Low in the Sky",
+        "Japanese": "古く埃っぽいアンティークの西部の風景、列車とカウボーイ、スチームパンクの機械",
+        "Audio": "Low in the Sky - Dear Birds - The Cowboy Natural"
+    },
+    {
+        "Prompt": "Halls of futuristic antiques, clockwork steampunk solarpunk",
+        "Category": "Misc",
+        "TrackName": "Fnd Wax Cylindr At Abandnd Shell Station",
+        "Artist": "Low in the Sky",
+        "Japanese": "未来的なアンティークのホール、クロックワークのスチームパンク、ソーラーパンク",
+        "Audio": "Low in the Sky - We Are All Counting On You, William - Fnd Wax Cylindr At Abandnd Shell Station"
+    },
+    {
+        "Prompt": "Spanish and Mexican influenced oil paintings by Abraham Ángel",
+        "Category": "Misc",
+        "TrackName": "Aula Expressivo",
+        "Artist": "Joseph Minadeo",
+        "Japanese": null,
+        "Audio": "Aula Expressivo"
     }
 ]

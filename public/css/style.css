@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #080808;
+    color: #CCC;
+    font-family: "Bodoni Moda", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+  }
+  textarea {
+    width: calc(100% - 60px);
+    height: auto;
+    min-height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #111;
+    border: 1px solid #444;
+    color: #888;
+    border-radius: 5px;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "Bodoni Moda", serif;
+}
+/* button {
+    width: 100%;
+    height: auto;
+    max-width: calc(100% - 20px);
+    margin: 0 auto 40px auto;
+    padding: 15px 20px 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    letter-spacing: 0.2em;
+    color: #111;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bodoni Moda", serif;
+}*/
+
+button.disabled {
+    display: none;
+} 
+
+  #screen, #edit, #selection {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    position: fixed;
+  }
+
+  #screen.ipad {
+    max-width: 100%;
+  }
+
+  .headnav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+  }
+  #language, #close, #closeSelect {
+    width: 130px;
+    padding: 20px 0 0 20px;
+    /* background-color: #333; */
+    display: flex;
+    cursor: pointer;
+  }
+  #language img, #close img, #closeSelect img {
+    height: 30px;
+    margin: 2px 5px 0 0;
+  }
+  #language p.lang {
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  #language p.lang::after {
+    content: "⯆";
+    display: inline-block;
+    margin: 0 0 0 3px;
+    font-size: 14px;
+    color: #666;
+  }
+  #mainBtn {
+    width: 180px;
+    margin: 20px 20px 0 0;
+  }
+  button {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #D4145A;
+    border: 1px solid #D4145A;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  .buttons {
+    width: calc(100% - 20px);
+    margin: 10px auto 15px auto;
+    display: flex;
+  }
+  .buttons button {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    background-color: #080808;
+    color: #D4145A;
+  }
+  .buttons button#randomBtn {
+    width: calc(100% - 185px);
+    margin: 0 0 0 10px;
+  }
+  .buttons button.square {
+    width: 50px;
+    padding: 0;
+    margin: 0 0 0 5px;
+  }
+  .buttons button.square img {
+    height: 40px;
+    margin: 0;
+    pointer-events: none;
+  }
+  button img {
+    height: 40px;
+    margin: 0 10px 0 0;
+  }
+  button p {
+    margin:  10px 0;
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+  }
+  .buttons button p {
+    letter-spacing: 0.05em;
+  }
+
+  .currentprompt {
+    width: 100%;
+    height: calc(100% - 65px - 370px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .current {
+    width: 100%;
+    margin: 0;
+  }
+  p#prompt {
+    width: 90%;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    margin: 10px auto;
+  }
+
+  #credits, #styles {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    max-width: 600px;
+  }
+  #styles {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  /* #presets {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    max-width: 600px;
+  } */
+
+    /* p#english::after, p#japanese::after {
+        content: "Tap to edit";
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5em;
+        color: #666;
+    } */
+    /* p#japanese {
+      color: #ccc;
+      font-size: 21px;
+      font-family: "Shippori Mincho", serif;
+      font-weight: 400;
+      font-style: normal;
+    } */
+    /* p#japanese::after {
+        content: "タップして編集";
+    } */
+  
+    /* #stylebtns {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+    #stylebtns .stylebtn {
+        width: calc(25% - 40px);
+        height: 50px;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #444;
+        background-color: #333;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        background-size: cover;
+    }
+    #stylebtns .stylebtn img {
+      height: 100%;
+      pointer-events: none;
+    }
+    #stylebtns .stylebtn.selected {
+      border: 2px solid #ccc;
+      transition-duration: 200ms;
+    } */
+    .label {
+      font-size: 14px;
+      font-style: italic;
+      color: #666;
+      margin: 25px auto 5px auto;
+      width: calc(100% - 40px);
+    }
+
+    .label.artstylelist {
+      margin: 0 0 10px 0;
+      position: relative;
+      width: calc(100% - 10px);;
+    }
+    .label.artstylelist::after {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 5px;
+      display: inline-block;
+      height: 1px;
+      width: 180px;
+      margin: 0 0 20px 0;
+      background-color: #666;
+    }
+
+  #styleArt {
+      overflow-x: auto;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+  }
+  #styleArt::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+    #artists, #artistsEdit{
+        width: fit-content;
+        display: flex;
+        justify-content:left;
+        margin: 0 auto;
+        /* flex-wrap: wrap; */
+        padding: 0 20px;
+    }
+    #whattobe {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: auto;
+    }
+    #whattobe div {
+      width: 32vw;
+      height: 32vw;
+    }
+    .artist {
+        width: 200px;
+        height: 140px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        cursor: pointer;
+        /* display: block; */
+    }
+    .artist img {
+        width: 100%;
+        height: 65px;
+        margin: 0;
+        object-fit: cover;
+    }
+    .artistinfo {
+      width: calc(100% - 0);
+      height: calc(100% - 75px);
+      position: relative;
+    }
+    .artist p {
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+    .artist p.sub {
+        font-size: 12px;
+        font-style: italic;
+        color: #666;
+    }
+
+    #musiccred {
+      padding: 0 20px 20px 20px;
+    }
+    .music {
+      width: calc(100% - 20px);
+      height: auto;
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      justify-content: left;
+    }
+    .music img {
+      height: 70px;
+      margin: 0 20px 0 0;
+    }
+    .musicinfo {
+      width: calc(100% - 90px);
+      position: relative;
+    }
+    .music p {
+      margin: 0;
+      text-align: left;
+      width: 100%;
+    }
+    p.songtitle {
+      font-size: 16px;
+    }
+    p.byline {
+      font-size: 14px;
+      font-style: italic;
+      color: #666;
+    }
+    p.learnmore {
+      position: absolute;
+      font-size: 12px;
+      font-style: italic;
+      color: #666;
+      text-align: right;
+      bottom: 0;
+      right: 5px;
+    }
+
+    #styleArtList, #whatList {
+      width: 100%;
+      height: calc(100% - 65px - 20px);
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+    #whatList {
+      width: fit-content;
+      height: 100%;
+      margin: 0 auto;
+    }
+    #artlist, #stylelist {
+      width: calc(50% - 20px);
+      height: 100%;
+      overflow-y: auto;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+    }
+    .artlistItem, .kidslistItem {
+      width: calc(100% - 15px);
+      height: 100px;
+      margin: 5px;
+      padding: 0;
+      border: 2px solid #080808;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+    }
+    .kidslistItem {
+      border-radius: 50%;
+    }
+    .artlistItem.highlighted, .kidslistItem.highlighted {
+      border: 2px solid #D4145A;
+      transition-duration: 200ms;
+      position: relative;
+    }
+    .kidslistItem.highlighted {
+      box-sizing: border-box;
+      border: 20px solid #D4145A;
+    }
+
+    .artlistItem.highlighted::after {
+      content: "🞤";
+      color: #D4145A;
+      position: absolute;
+      font-size: 20px;
+      top: 5px;
+      right: 5px;
+      display: block;
+      height: 24px;
+      width: 24px;
+      margin: 0;
+      z-index: 1;
+    }
+    .artImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .artistname, .kidsname {
+      margin: 0;
+      position: absolute;
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0,0,0,0.3);
+      z-index: 1;
+    }
+    .kidsname {
+      font-size: 2em;
+      letter-spacing: 0.1em;
+      font-weight: bold;
+      align-items: flex-end;
+      padding-bottom: 20px;
+      height: calc(100% - 20px);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0.8) 100%);
+    }

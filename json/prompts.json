@@ -1,0 +1,74 @@
+[
+    {
+        "Prompt": "A mountain of scrapped machines in a haunted desert with atomic clouds in the distance",
+        "Japanese": "遠くに原子雲が立ち込める、廃棄された機械の山が広がる呪われた砂漠",
+        "Category": "System",
+        "Music": "system-00",
+        "StyleArtist1": "zdzisław-beksinski",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "Poison Gas Attack, Genocide, White Phosphorus",
+        "Japanese": "毒ガス攻撃、大虐殺、白リン弾",
+        "Category": "System",
+        "Music": "system-01",
+        "StyleArtist1": "zdzisław-beksinski",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "Organic lifeforms and beautiful luminescent beings",
+        "Japanese": "アンリ・マティスの描く、有機生物と美しい発光体、繊細なグラフィティ風のガッシュ画",
+        "Category": "Life",
+        "Music": "life-00",
+        "StyleArtist1": "henri-matisse",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "Patterns in nature, patterns of trees and leaves and stones",
+        "Japanese": "自然のパターン、木々や葉、石の模様",
+        "Category": "Life",
+        "Music": "life-00",
+        "StyleArtist1": "andy-goldsworthy",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "A polaroid disco monster party from the 70s, grainy colorful photographs, print color halftone",
+        "Japanese": "ポラロイドで撮られた、70年代ディスコのモンスターパーティー、ざらっとした質感のカラー写真、ハーフトーン印刷",
+        "Category": "MonsterParty",
+        "Music": "monster-party",
+        "StyleArtist1": "junji-ito",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "Fuzzy felt colorful monsters with silly soft weapons",
+        "Japanese": "マヌケで柔らかな武器を持つ、ふわふわでカラフルなフェルトのモンスターたち",
+        "Category": "MonsterParty",
+        "Music": "monster-party",
+        "StyleArtist1": "yayoi-kusama",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "A massive neon cyberpunk city at night",
+        "Japanese": "夜の巨大なネオンのサイバーパンク都市",
+        "Category": "Misc",
+        "Music": "eneldee",
+        "StyleArtist1": "jean-giraud",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    },
+    {
+        "Prompt": "Colorful abstract birds",
+        "Japanese": "カラフルな抽象的な鳥たち",
+        "Category": "Misc",
+        "Music": "opal-one",
+        "StyleArtist1": "joan-miro",
+        "StyleArtist2": null,
+        "StyleArtist3": null
+    }
+]

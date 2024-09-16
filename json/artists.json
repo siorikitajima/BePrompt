@@ -1,0 +1,209 @@
+[
+    {
+        "Name": "Zdzisław Beksiński",
+        "Slug": "zdzisław-beksinski",
+        "Category": "System",
+        "SubNote": "1929 - 2005",
+        "Link": "https://en.wikipedia.org/wiki/Zdzis%C5%82aw_Beksi%C5%84ski",
+        "Image": "zdzisław.jpg",
+        "Note": null
+    },
+    {
+        "Name": "H.R. Giger",
+        "Slug": "hr-giger",
+        "Category": "System",
+        "SubNote": "1940 - 2014",
+        "Link": "https://en.wikipedia.org/wiki/H._R._Giger",
+        "Image": "hrgiger.jpg",
+        "Note": null
+    },
+    {
+        "Name": "Junji Ito",
+        "Slug": "junji-ito",
+        "Category": "System",
+        "SubNote": "1963 -",
+        "Link": "https://en.wikipedia.org/wiki/Junji_Ito",
+        "Image": "junjiito.jpg",
+        "Note": null
+    },
+    {
+        "Name": "Katsuhiko Otomo",
+        "Slug": "katsuhiko-otomo",
+        "Category": "System",
+        "SubNote": "1954 -",
+        "Link": "https://en.wikipedia.org/wiki/Katsuhiro_Otomo",
+        "Image": "otomo.jpg",
+        "Note": null
+    },
+    {
+        "Name": "Kazuo Umezu",
+        "Slug": "kazuo-umezu",
+        "Category": "System",
+        "SubNote": "1936 -",
+        "Link": "https://en.wikipedia.org/wiki/Kazuo_Umezu",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Hieronymus Bosch",
+        "Slug": "hieronymus-bosch",
+        "Category": "System",
+        "SubNote": "1450 - 1516",
+        "Link": "https://en.wikipedia.org/wiki/Hieronymus_Bosch",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Neill Blomkamp",
+        "Slug": "neill-blomkamp",
+        "Category": "System",
+        "SubNote": "1979 -",
+        "Link": "https://en.wikipedia.org/wiki/Neill_Blomkamp",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Francis Bacon",
+        "Slug": "francis-bacon",
+        "Category": "System",
+        "SubNote": "1909 - 1992",
+        "Link": "https://en.wikipedia.org/wiki/Francis_Bacon_(artist)",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Achille Funi",
+        "Slug": "achille-funi",
+        "Category": "System",
+        "SubNote": "1890 - 1972",
+        "Link": "https://en.wikipedia.org/wiki/Achille_Funi",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Henri Matisse",
+        "Slug": "henri-matisse",
+        "Category": "Life",
+        "SubNote": "1869 - 1954",
+        "Link": "https://en.wikipedia.org/wiki/Henri_Matisse",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Andy Goldsworthy",
+        "Slug": "andy-goldsworthy",
+        "Category": "Life",
+        "SubNote": "1956 -",
+        "Link": "https://en.wikipedia.org/wiki/Andy_Goldsworthy",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Claude Monet",
+        "Slug": "claude-monet",
+        "Category": "Life",
+        "SubNote": "1840 - 1926",
+        "Link": "https://en.wikipedia.org/wiki/Claude_Monet",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Barry Van Dusen",
+        "Slug": "barry-van-dusen",
+        "Category": "Life",
+        "SubNote": "1954 -",
+        "Link": "https://swla.co.uk/members/barry-van-dusen",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Salvador Dalí",
+        "Slug": "salvador-dalí",
+        "Category": "Life",
+        "SubNote": "1904 - 1989",
+        "Link": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Hayao Miyazaki",
+        "Slug": "hayao-miyazaki",
+        "Category": "Life",
+        "SubNote": "1941 -",
+        "Link": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Vincent van Gogh",
+        "Slug": "vincent-van-gogh",
+        "Category": "Life",
+        "SubNote": "1853 - 1890",
+        "Link": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Yayoi Kusama",
+        "Slug": "yayoi-kusama",
+        "Category": "MonsterParty",
+        "SubNote": "1929 -",
+        "Link": "https://en.wikipedia.org/wiki/Yayoi_Kusama",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Edward Gorey",
+        "Slug": "edward-gorey",
+        "Category": "MonsterParty",
+        "SubNote": "1925 - 2000",
+        "Link": "https://en.wikipedia.org/wiki/Edward_Gorey",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Wayne White",
+        "Slug": "wayne-white",
+        "Category": "MonsterParty",
+        "SubNote": "1957 -",
+        "Link": "https://en.wikipedia.org/wiki/Wayne_White_(artist)",
+        "Image": null,
+        "Note": "Pee Wee Playhouse"
+    },
+    {
+        "Name": "Tim Burton",
+        "Slug": "tim-burton",
+        "Category": "MonsterParty",
+        "SubNote": "1958 -",
+        "Link": "https://en.wikipedia.org/wiki/Tim_Burton",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Edward Hopper",
+        "Slug": "edward-hopper",
+        "Category": "Misc",
+        "SubNote": "1882 - 1967",
+        "Link": "https://en.wikipedia.org/wiki/Edward_Hopper",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Jean Giraud (Moebius)",
+        "Slug": "jean-giraud",
+        "Category": "Misc",
+        "SubNote": "1938 - 2012",
+        "Link": "https://en.wikipedia.org/wiki/Jean_Giraud",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Joan Miró",
+        "Slug": "joan-miro",
+        "Category": "Misc",
+        "SubNote": "1893 - 1983",
+        "Link": "https://en.wikipedia.org/wiki/Joan_Mir%C3%B3",
+        "Image": null,
+        "Note": null
+    }
+]

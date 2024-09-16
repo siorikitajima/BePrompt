@@ -105,8 +105,8 @@
       <div id="screen">
         <div id="current">
           <p id="category"><img src="images/life@2x.png" alt="Life"></p>
-          <p id="english">“A polaroid disco monster party from the 70s, grainy colorful photographs, print color halftone”</p>
-          <p id="japanese">ポラロイドで撮られた、70年代ディスコのモンスターパーティー、ざらっとした質感のカラー写真、ハーフトーン印刷</p>
+          <p id="english"></p>
+          <p id="japanese"></p>
           <div id="credit">
             <p id="audio">Music: Title of the song by Artist name</p>
           </div>
@@ -124,7 +124,7 @@
 
           if (msg.Prompt) { // If it has a prompt, display it
             let prompt = '“' + msg.Prompt + '”';
-            let credit = 'Music: ' + msg.Audio + ' by ' + msg.Artist;
+            let credit = 'Music: ' + msg.TrackName + ' by ' + msg.Artist;
             let icon;
             if (msg.Category === 'Life') {
               icon = 'images/life@2x.png';
@@ -135,13 +135,22 @@
             } else if (msg.Category === 'Misc') {
               icon = 'images/misc@2x.png';
             } else {
-              icon = '';
+              icon = 'images/custom@2x.png';
             }
             document.getElementById('english').innerHTML = prompt;
             document.getElementById('japanese').innerHTML = msg.Japanese;
             document.getElementById('audio').innerHTML = credit;
             document.getElementById('category').innerHTML = '<img src="' + icon + '" alt="' + msg.Category + '">';
           
+          } else if (msg.TranslatedJA) { // If it is a translation, display it
+            document.getElementById('japanese').innerHTML = msg.TranslatedJA;
+            document.getElementById('english').innerHTML = '“' + msg.EnglishCustom + '”';
+            document.getElementById('category').innerHTML = '<img src="images/custom@2x.png" alt="Custom">';
+
+          } else if (msg.TranslatedEN) { // If it is a translation, display it
+            document.getElementById('english').innerHTML = '“' + msg.TranslatedEN + '”';
+            document.getElementById('japanese').innerHTML = msg.JapaneseCustom;
+            document.getElementById('category').innerHTML = '<img src="images/custom@2x.png" alt="Custom">';
           } else { // If it doesn't have a prompt, do nothing
             console.log("No prompt");
           }
@@ -152,6 +161,8 @@
 
       webSocket.addEventListener("open", () => {
         console.log("We are connected");
+        // Send a request to the server to get the latest prompt
+        webSocket.send(JSON.stringify({"Requested": true}));
       });
 
     function isJson(str) {

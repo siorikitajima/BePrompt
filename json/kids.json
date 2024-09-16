@@ -1,0 +1,58 @@
+[
+    {
+        "Prompt": "A fluffy rabbit wearing a colorful scarf, hopping through a magical candy forest with rainbow trees and cotton candy clouds.",
+        "Name": "うさぎ",
+        "Music": "system-00",
+        "Image": "rabbit.jpg",
+        "ID": "rabbit"
+    },
+    {
+        "Prompt": "A cartoon astronaut exploring a planet made of jelly, with wobbly mountains and glowing stars in the background.",
+        "Name": "うちゅう<br/>ひこうし",
+        "Music": "system-00",
+        "Image": "astronaut.jpg",
+        "ID": "astronaut"
+    },
+    {
+        "Prompt": "A tiny elephant made of balloons floating gently over a bright, cheerful amusement park.",
+        "Name": "ぞう",
+        "Music": "life-00",
+        "Image": "elephant.jpg",
+        "ID": "elephant"
+    },
+    {
+        "Prompt": "A friendly monster made of patchwork fabric, sitting by a campfire telling jokes to happy kids.",
+        "Name": "モンスター",
+        "Music": "life-00",
+        "Image": "monster.jpg",
+        "ID": "monster"
+    },
+    {
+        "Prompt": "A mischievous kitten with wings, flying through a steampunk city with clockwork birds.",
+        "Name": "ねこ",
+        "Music": "monster-party",
+        "Image": "cat.jpg",
+        "ID": "cat"
+    },
+    {
+        "Prompt": "A penguin superhero in a cape, gliding over an icy kingdom with sparkling glaciers and northern lights.",
+        "Name": "ペンギン",
+        "Music": "monster-party",
+        "Image": "penguin.jpg",
+        "ID": "penguin"
+    },
+    {
+        "Prompt": "A lion king with a golden mane made of sunflowers, standing proudly in a kingdom of floating islands.",
+        "Name": "ライオン",
+        "Music": "eneldee",
+        "Image": "lion.jpg",
+        "ID": "lion"
+    },
+    {
+        "Prompt": "A holographic unicorn in 3D polygon style, galloping through a neon cyber world with pixelated rainbows.",
+        "Name": "ユニコーン",
+        "Music": "opal-one",
+        "Image": "unicorn.jpg",
+        "ID": "unicorn"
+    }
+]

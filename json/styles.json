@@ -1,0 +1,398 @@
+[
+    {
+        "Name": "Abstract Expressionism",
+        "Slug": "abstract-expressionism",
+        "Category": "Art Name",
+        "SubNote": "1940s, New York",
+        "Link": "https://en.wikipedia.org/wiki/Abstract_expressionism",
+        "Image": "ae.jpg",
+        "Note": null
+    },
+    {
+        "Name": "Art Nouveau",
+        "Slug": "art-nouveau",
+        "Category": "Art Name",
+        "SubNote": "1883 - 1914",
+        "Link": "https://en.wikipedia.org/wiki/Art_Nouveau",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Avant-Garde",
+        "Slug": "avant-garde",
+        "Category": "Art Name",
+        "SubNote": "Experimental",
+        "Link": "https://en.wikipedia.org/wiki/Avant-garde",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Bauhaus",
+        "Slug": "bauhaus",
+        "Category": "Art Name",
+        "SubNote": "1919 - 1933",
+        "Link": "https://en.wikipedia.org/wiki/Bauhaus",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Baroque",
+        "Slug": "baroque",
+        "Category": "Art Name",
+        "SubNote": "born 17th Century",
+        "Link": "https://en.wikipedia.org/wiki/Baroque",
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Classicism",
+        "Slug": "classicism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Conceptual Art",
+        "Slug": "conceptual-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Constructivism Art",
+        "Slug": "constructivism-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Contemporary Art",
+        "Slug": "contemporary-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Cubism",
+        "Slug": "cubism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Dadaism",
+        "Slug": "dadaism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "De Stijl",
+        "Slug": "de-stijl",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Expressionism",
+        "Slug": "expressionism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Fluxus",
+        "Slug": "fluxus",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Futurism",
+        "Slug": "futurism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Gothic Art",
+        "Slug": "gothic-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Harlem Renaissance",
+        "Slug": "harlem-renaissance",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Installation Art",
+        "Slug": "installation-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Kinetic Art",
+        "Slug": "kinetic-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Land Art",
+        "Slug": "land-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Magical Realism",
+        "Slug": "magical-realism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Modern Art",
+        "Slug": "modern-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Naturalism",
+        "Slug": "naturalism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Neoclassicism",
+        "Slug": "neoclassicism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Performance Art",
+        "Slug": "performance-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Photorealism",
+        "Slug": "photorealism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Pop Art",
+        "Slug": "pop-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Post-Impressionism",
+        "Slug": "post-impressionism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Primitivism",
+        "Slug": "primitivism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Rococo",
+        "Slug": "rococo",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Romanticism",
+        "Slug": "romanticism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Renaissance",
+        "Slug": "renaissance",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Street Art",
+        "Slug": "street-art",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Suprematism",
+        "Slug": "suprematism",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Ukiyo-e",
+        "Slug": "ukiyo-e",
+        "Category": "Art Name",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Acrylic paint",
+        "Slug": "acrylic-paint",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Canvas",
+        "Slug": "canvas",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Pens",
+        "Slug": "pens",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Watercolour Paint",
+        "Slug": "watercolour-paint",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Colored pencil",
+        "Slug": "colored-pencil",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Watercolor paper",
+        "Slug": "watercolor-paper",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Drafting supplies",
+        "Slug": "drafting-supplies",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Charcoal",
+        "Slug": "charcoal",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    },
+    {
+        "Name": "Drawing",
+        "Slug": "drawing",
+        "Category": "Material",
+        "SubNote": null,
+        "Link": null,
+        "Image": null,
+        "Note": null
+    }
+]
